@@ -1,3 +1,6 @@
 body{
     background-color: #777;
 }
+.detail_btn:hover{
+    color: #999;
+}
