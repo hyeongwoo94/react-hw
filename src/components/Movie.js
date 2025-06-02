@@ -17,13 +17,13 @@ function Movie({id, year, title, summary, poster, genres}){
             }
         }}>
             
-            <h3>왜 안나와11111?</h3>
+            {/* <h3>왜 안나와11111?</h3>
             <div className="movie">
                 <img src={poster} alt={title} title={title}/>
-                <div>아이고 안녕하세요</div>
+                <div>아이고 안녕하세요1111111111111111</div>
                 <div className="movie__data">
                     <h3 className="movie__title">{title}</h3>
-                    {/* <h5 className="movie__year">{year}</h5> */}
+                    <h5 className="movie__year">{year}</h5>
                     <ul className="genres">
                         {genres.map((genre, index) => (
                             <li key={index} className="genres__genre">{genre}</li>
@@ -31,7 +31,7 @@ function Movie({id, year, title, summary, poster, genres}){
                     </ul>    
                     <p className="movie__summary">{summary.slice(0,120)}...</p>
                 </div>    
-            </div>
+            </div> */}
     </Link>
     );
 }
