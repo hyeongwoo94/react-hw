@@ -39,6 +39,7 @@ class Home extends React.Component{
         ))}
         </div>
       )}
+      <div>테스트</div>
       </section>
     )
   }
