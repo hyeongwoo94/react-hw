@@ -17,7 +17,7 @@ function Movie({id, year, title, summary, poster, genres}){
             }
         }}>
             
-            <h3>왜 안나와?</h3>
+            <h3>왜 안나와11111?</h3>
             <div className="movie">
                 <img src={poster} alt={title} title={title}/>
                 <div>아이고 안녕하세요</div>
