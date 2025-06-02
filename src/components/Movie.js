@@ -19,6 +19,7 @@ function Movie({id, year, title, summary, poster, genres}){
             
             <div className="movie">
                 <img src={poster} alt={title} title={title}/>
+                <div>아이고 안녕하세요</div>
                 <div className="movie__data">
                     <h3 className="movie__title">{title}</h3>
                     <h5 className="movie__year">{year}</h5>

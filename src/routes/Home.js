@@ -25,6 +25,7 @@ class Home extends React.Component{
           <span className="loader__text">Loading...</span>
         </div> 
       ) :( 
+        
         <div className="movies">
           {movies.map(movie => (
           <Movie
@@ -37,9 +38,10 @@ class Home extends React.Component{
             genres={movie.genres}
             />
         ))}
+        <div>테스트</div>
         </div>
       )}
-      <div>테스트</div>
+      
       </section>
     )
   }
